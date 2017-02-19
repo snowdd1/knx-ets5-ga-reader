@@ -1,0 +1,12 @@
+{
+  "name": "knx-ets5-ga-reader",
+  "description": "Simple KNX ETS5 group address export file reader",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+	"start": "node test-file.js"
+  },
+  "dependencies": {
+  	"xml2js":"latest"
+  	}
+}

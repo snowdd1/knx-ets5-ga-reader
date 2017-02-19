@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Beleuchtung" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="Untergeschoss" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="Flur Deckenleuchte+Treppe Wandleuchte UG nach EG" Address="1/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Abstellraum Deckenleuchte" Address="1/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Hobbyraum Deckenleuchte" Address="1/0/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="Vorratsraum Deckenleuchte" Address="1/0/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Werkraum Deckenleuchte" Address="1/0/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="Hauswirtschaftsraum Deckenleuchte" Address="1/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung KellerFlur 1/0/0" Address="1/0/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Abstellraum Deckenleuchte 1/0/1" Address="1/0/11" Description="1/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Hobbyraum Deckenleuchte 1/0/2" Address="1/0/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Vorratsraum Deckenleuchte 1/0/3" Address="1/0/13" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Werkraum Deckenleuchte 1/0/4" Address="1/0/14" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Hauswirtschaftsraum Deckenleuchte  1/0/5" Address="1/0/15" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kellerflur" Address="1/0/100" Description="AUslöser für den 'kleinen' Kellerflurlichtbedarf tagsüber - ohne Treppenbeleuchtung" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Erdgeschoss" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="Flur Halogendeckenspots " Address="1/1/0" Description="auch Garderobe (wird mitgeschaltet)" DPTs="DPST-1-1" />
+      <GroupAddress Name="Garderobe Halogendeckenspots" Address="1/1/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Gäste-WC" Address="1/1/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer Osten" Address="1/1/3" Description="Fensterseite" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer Süden" Address="1/1/4" Description="Fensterseite" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer Mitte" Address="1/1/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer Norden" Address="1/1/6" Description="Wandseite" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer Westen" Address="1/1/7" Description="Wandseite" DPTs="DPST-1-1" />
+      <GroupAddress Name="Esszimmer Deckenleuchte" Address="1/1/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="Esszimmer Deckenleuchte Dimmen heller/dunkel X" Address="1/1/9" DPTs="DPST-3-7" />
+      <GroupAddress Name="Küche Deckenlicht" Address="1/1/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Esszimmer Vitrine (Decke)   X" Address="1/1/11" Description="Keine Lampe angeschlossen (Esszimmer)&#xD;&#xA;Kein Aktor" />
+      <GroupAddress Name="Küche Sideboards" Address="1/1/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="Küche Oberschrank" Address="1/1/14" Description="Unterschranklicht" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer gesamt X" Address="1/1/15" DPTs="DPST-1-1" />
+      <GroupAddress Name="Esszimmer Dimmer Helligkeitswert 1/1/8B" Address="1/1/16" DPTs="DPST-5-1" />
+      <GroupAddress Name="Esszimmer Dimmer Rückm Schalten X" Address="1/1/17" DPTs="DPST-1-1" />
+      <GroupAddress Name="Esszimmer Dimmer Rückm Helligkwert X" Address="1/1/18" DPTs="DPST-5-1" />
+      <GroupAddress Name="Wz Mitte Dimmen X" Address="1/1/51" DPTs="DPST-3-7" />
+      <GroupAddress Name="Wz Mitte Helligkeitswert  1/1/5B" Address="1/1/52" DPTs="DPST-5-1" />
+      <GroupAddress Name="Wz Mitte Rückm Schalten 1/1/5" Address="1/1/53" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wz Mitte Rückm Helligkeit 1/1/52" Address="1/1/54" DPTs="DPST-5-1" />
+      <GroupAddress Name="Wohnzimmer Norden - Dimmen X" Address="1/1/61" Description="Wandseite" DPTs="DPST-3-7" />
+      <GroupAddress Name="Wohnzimmer Norden - Helligkeit setzen 1/1/6B" Address="1/1/62" Description="Wandseite" DPTs="DPST-5-1" />
+      <GroupAddress Name="Wohnzimmer Norden - Rückm Schalten 1/1/6" Address="1/1/63" Description="Wandseite" DPTs="DPST-1-1" />
+      <GroupAddress Name="Wohnzimmer Norden - Rückm Helligkeit 1/1/62" Address="1/1/64" Description="Wandseite" DPTs="DPST-5-1" />
+      <GroupAddress Name="Rückmeldung Flur  EG    1/1/0" Address="1/1/100" Description="Rückmeldung zu 1/1/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Küche Deckenlicht Rückmeldung 1/1/10" Address="1/1/110" DPTs="DPST-1-1" />
+      <GroupAddress Name="Küche Sideboards Rückmeldung 1/1/12" Address="1/1/112" DPTs="DPST-1-1" />
+      <GroupAddress Name="Küche Sideboards Timerstart   X" Address="1/1/210" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Obergeschoss" RangeStart="2560" RangeEnd="2815">
+      <GroupAddress Name="Flur Deckenleuchte" Address="1/2/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Benjamin Deckenleuchte" Address="1/2/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Benjamin Deckenleuchte Dimmen Hell/Dunkel X" Address="1/2/2" DPTs="DPST-3-7" />
+      <GroupAddress Name="Maximilian Deckenleuchte" Address="1/2/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Maximilian Deckenleucht Dimmen Hell/Dunkel X" Address="1/2/4" DPTs="DPST-3-7" />
+      <GroupAddress Name="Kinderbad Deckenleuchte" Address="1/2/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kinderbad Spiegelleuchte" Address="1/2/6" DPTs="DPST-1-1" />
+      <GroupAddress Name="Schlafzimmer Deckenlicht" Address="1/2/7" DPTs="DPST-1-1" />
+      <GroupAddress Name="Schlafzimmer Leselicht links" Address="1/2/8" DPTs="DPST-1-1" />
+      <GroupAddress Name="Schlafzimmer Leselicht links Dimmen Hell/Dunkel X" Address="1/2/9" DPTs="DPST-3-7" />
+      <GroupAddress Name="Schlafzimmer Leselicht rechts" Address="1/2/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Schlafzimmer Leselicht rechts Dimmen Hell/Dunkel X" Address="1/2/11" DPTs="DPST-3-7" />
+      <GroupAddress Name="Elternbad Deckenlicht" Address="1/2/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="Elternbad Spiegellicht" Address="1/2/13" DPTs="DPST-1-1" />
+      <GroupAddress Name="Elternbad beleuchteter Schrank X" Address="1/2/14" Description="Schaltet die STromversorgung zum Spiegelschrank. Standardmäßig an, da der Schrank eigenen Schalter hat" DPTs="DPST-1-1" />
+      <GroupAddress Name="Benjamin Deckenlicht Helligkeit 1/2/1B" Address="1/2/22" Description="Helligkeit (Brightness) zu 1/2/1" DPTs="DPST-5-1" />
+      <GroupAddress Name="Maximilian Deckenlicht Helligkeit 1/2/3B" Address="1/2/24" DPTs="DPST-5-1" />
+      <GroupAddress Name="Schlafzimmer Leselicht L Helligkeit 1/2/8B" Address="1/2/29" DPTs="DPST-5-1" />
+      <GroupAddress Name="Schlafzimmer Leselicht R Helligkeit 1/2/10B" Address="1/2/31" DPTs="DPST-5-1" />
+      <GroupAddress Name="Benjamin Rückm Schalten 1/2/1" Address="1/2/41" DPTs="DPST-1-1" />
+      <GroupAddress Name="Benjamin Rückm Helligkeit 1/2/22" Address="1/2/42" DPTs="DPST-5-1" />
+      <GroupAddress Name="Maximilian Rückm Schalten 1/2/3" Address="1/2/43" DPTs="DPST-1-1" />
+      <GroupAddress Name="Maximilian Rückm Helligkeit 1/2/24" Address="1/2/44" DPTs="DPST-5-1" />
+      <GroupAddress Name="Leselicht Links Rückm Schalten 1/2/8" Address="1/2/48" DPTs="DPST-1-1" />
+      <GroupAddress Name="Leselicht Links Rückm Helligkeit 1/2/29" Address="1/2/49" DPTs="DPST-5-1" />
+      <GroupAddress Name="Leselicht Rechts Rückm Schalten 1/2/10" Address="1/2/50" DPTs="DPST-1-1" />
+      <GroupAddress Name="Leselicht Rechts Rückm Helligkeit 1/2/31" Address="1/2/51" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="Dachgeschoss" RangeStart="2816" RangeEnd="3071">
+      <GroupAddress Name="Flur Deckenleuchte" Address="1/3/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Abstellraum Deckenlicht" Address="1/3/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Gästezimmer Deckenlicht" Address="1/3/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="Bad Deckenlicht" Address="1/3/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="Bad Spiegelleuchte" Address="1/3/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="Büro Deckenleuchte" Address="1/3/5" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Treppenhaus" RangeStart="3072" RangeEnd="3327">
+      <GroupAddress Name="Kellertreppe" Address="1/4/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Treppenhaus Erdgeschoss-OG" Address="1/4/1" Description="EG nach OG Wand" DPTs="DPST-1-1" />
+      <GroupAddress Name="Treppenhaus Obergeschoss-DG" Address="1/4/2" DPTs="DPST-1-1" />
+      <GroupAddress Name="LED EG nach OG" Address="1/4/3" DPTs="DPST-1-1" />
+      <GroupAddress Name="LED OG nach DG" Address="1/4/4" DPTs="DPST-1-1" />
+      <GroupAddress Name="Licht Treppe EG-OG (Zeit start)" Address="1/4/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Licht Treppe EG-OG Rückmeldung" Address="1/4/11" DPTs="DPST-1-1" />
+      <GroupAddress Name="Licht Treppe OG-DG Treppenlicht start" Address="1/4/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="Licht Treppe OG-DG Rückmeldung" Address="1/4/21" DPTs="DPST-1-1" />
+      <GroupAddress Name="LED Treppe EG-OG Rückmeldung" Address="1/4/31" DPTs="DPST-1-1" />
+      <GroupAddress Name="LED Treppe OG-DG Rückmeldung" Address="1/4/41" DPTs="DPST-1-1" />
+    </GroupRange>
+  </GroupRange>
+</GroupAddress-Export>
