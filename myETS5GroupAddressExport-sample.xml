@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Beleuchtung" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="Untergeschoss" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="Hauswirtschaftsraum Deckenleuchte" Address="1/0/5" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung KellerFlur 1/0/0" Address="1/0/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Abstellraum Deckenleuchte 1/0/1" Address="1/0/11" Description="1/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Hobbyraum Deckenleuchte 1/0/2" Address="1/0/12" DPTs="DPST-1-1" />
+      <GroupAddress Name="Rückmeldung Vorratsraum Deckenleuchte 1/0/3" Address="1/0/13" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Erdgeschoss" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="Flur Halogendeckenspots " Address="1/1/0" Description="auch Garderobe (wird mitgeschaltet)" DPTs="DPST-1-1" />
+    </GroupRange>
+  </GroupRange>
+</GroupAddress-Export>
